@@ -8,7 +8,7 @@ public class TV {
 	int volumen = 1;
 	Control control;
 	static int numTV;
-    TV(Marca raza, boolean tvOn){
+    public TV(Marca raza, boolean tvOn){
     	this.marca = raza; this.estado = tvOn;
     }
     public Marca getMarca() {
