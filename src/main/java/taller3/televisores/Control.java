@@ -1,7 +1,7 @@
 package taller3.televisores;
 
 public class Control{
-	TV tv;
+	private TV tv;
 	public void canalUp() {
 		tv.canalUp();
 	}
@@ -27,10 +27,10 @@ public class Control{
 		this.tv = televisor;
 		tv.setControl(this);
 	}
-	public TV getTV() {
+	public TV getTv() {
 		return this.tv;
 	}
-	public void setTV(TV tv) {
+	public void setTv(TV tv) {
 		this.tv = tv;
 	}
 }
