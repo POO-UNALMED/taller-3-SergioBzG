@@ -9,7 +9,7 @@ public class TV {
 	private Control control;
 	private static int numTV;
     public TV(Marca raza, boolean tvOn){
-    	this.marca = raza; this.estado = tvOn;
+    	this.marca = raza; this.estado = tvOn; this.numTV++;
     }
     public Marca getMarca() {
     	return this.marca;
